@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Temperature Converter</title>
+  <style>
+body
+{
+    margin-top: 60px;
+    text-align:center;
+    background-color: black;
+  }
+
+  h1
+   {
+    text-shadow: seashell 1px 1px 2px;
+    color: snow;
+    padding-bottom: 10px;
+    margin-bottom: 90px;
+    animation: header;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes header {
+  
+    
+    10% {color: lightgoldenrodyellow;}
+    20%  {color: aqua;}
+    30% {color: aquamarine;}
+    40%   {color: azure;}
+    50% {color: beige;}
+    60%   {color: bisque;}
+    70% {color: blanchedalmond;}
+    80%   {color: cornsilk;}
+    90% {color: lightyellow;}
+   100%  {color: antiquewhite;}
+    
+  }
+  
+  .celsius
+  {
+    background-color: black;
+    font-size: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    color: snow;
+  }
+  
+  .fahrenheit
+  {
+    background-color: black;
+    font-size: 40px;
+    border-radius: 20px;
+    color: snow;
+
+  }
+  .celsius:hover{
+    
+    box-shadow: snow 3px 3px 5px;
+
+  }
+  
+  .fahrenheit:hover {
+
+    box-shadow: snow 3px 3px 5px;
+    
+  }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-md-6 text-center">
+        <h1>Temperature Converter</h1>
+     
+        <div id="celsius">
+          <input type="number" class="celsius" placeholder="Celsius">
+        </div>
+
+        <div id="fahrenheit">
+          <input type="number" class="fahrenheit" placeholder="Fahrenheit">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="1.js" charset="utf-8"></script>
+</body>
+</html>
